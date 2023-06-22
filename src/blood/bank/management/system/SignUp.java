@@ -100,7 +100,7 @@ public class SignUp extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 102));
         jLabel4.setText("Name");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 130, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 140, -1, 20));
 
         jLabel5.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 0, 102));
@@ -161,7 +161,7 @@ public class SignUp extends javax.swing.JFrame {
                 txtNameKeyReleased(evt);
             }
         });
-        getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 130, 275, 24));
+        getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 140, 275, 24));
 
         txtEmail.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         txtEmail.setForeground(new java.awt.Color(0, 0, 102));

@@ -1,6 +1,7 @@
 
 import javax.swing.JOptionPane;
 import Model.User;
+import blood.bank.management.system.Dashboard;
 import blood.bank.management.system.SignUp;
 import dao.UserDao;
 import javax.swing.ImageIcon;
@@ -167,7 +168,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/login2.png"))); // NOI18N
         jLabel8.setText("jLabel8");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 880, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -3, 850, 550));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -190,7 +191,10 @@ public class Login extends javax.swing.JFrame {
             }
             if (user.getStatus().equals("true")){
                 setVisible(false);
-                new HomePage(email).setVisible(true);
+
+
+                new Dashboard().setVisible(true);
+
             
             }
         
@@ -231,6 +235,7 @@ public class Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         setVisible(false);
         new SignUp().setVisible(true);
+        
                 
     }//GEN-LAST:event_btnSignUpActionPerformed
 

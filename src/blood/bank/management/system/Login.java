@@ -67,7 +67,6 @@ public class Login extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        btnForgotPassword = new javax.swing.JButton();
         btnLogin = new javax.swing.JButton();
         btnSignUp = new javax.swing.JButton();
         txtEmail = new javax.swing.JTextField();
@@ -106,12 +105,6 @@ public class Login extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(0, 0, 102));
         jLabel4.setText("Password");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 200, 70, -1));
-
-        btnForgotPassword.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnForgotPassword.setForeground(new java.awt.Color(0, 0, 102));
-        btnForgotPassword.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/forgot.png"))); // NOI18N
-        btnForgotPassword.setText("Forgot Password?");
-        getContentPane().add(btnForgotPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 340, 170, 30));
 
         btnLogin.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnLogin.setForeground(new java.awt.Color(0, 0, 102));
@@ -167,7 +160,7 @@ public class Login extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 0, 102));
         jLabel6.setText("Donate Blood  ! Save Life !");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 450, 320, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 420, 320, -1));
 
         txtClear.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         txtClear.setForeground(new java.awt.Color(0, 0, 102));
@@ -204,7 +197,7 @@ public class Login extends javax.swing.JFrame {
             }
             if (user.getStatus().equals("true")) {
                 setVisible(false);
-                new HomePage().setVisible(true);
+                new Dashboard().setVisible(true);
 
             }
 
@@ -284,7 +277,6 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnExit;
-    private javax.swing.JButton btnForgotPassword;
     private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnSignUp;
     private javax.swing.JLabel jLabel1;
