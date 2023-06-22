@@ -1,8 +1,8 @@
 
 import javax.swing.JOptionPane;
-import Model.User;
-import blood.bank.management.system.Dashboard;
-import blood.bank.management.system.SignUp;
+import Model.SignUpModel;
+import view.Dashboard;
+import view.SignUp;
 import dao.UserDao;
 import javax.swing.ImageIcon;
 
@@ -177,7 +177,7 @@ public class Login extends javax.swing.JFrame {
         // TODO add your handling code here:
         String email = txtEmail.getText();
         String password = txtPassword.getText();
-        User user = null;
+        SignUpModel user = null;
         user = UserDao.login(email, password);
         if (user==null)
             JOptionPane.showMessageDialog(null, "<html><b style=\"color:red\">Incorrect Email or Password</b></html>","Message",JOptionPane.ERROR_MESSAGE);
