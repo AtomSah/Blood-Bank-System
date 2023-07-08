@@ -3,13 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/addNewDonors.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/dao/tables.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/stockDetails.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/all%20page%20background%20image.png</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/deleteDonor.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/dao/UserDao.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/blood.png</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Model/LoginModel.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/hpw.png</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/Location_1.png</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/updateDetailsDonor.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/jTable1.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/dao/LoginDao.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/SearchBloodDonorBloodGroup.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/homepagewow_3.png</file>
@@ -17,13 +22,17 @@
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Controller/LoginController.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Model/DashboardModel.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/AddNew.png</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/jTable.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/demo.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/allDonorDetails.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/homepagewow_2.png</file>
-            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Login.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/StockDecrease.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/BloodBankManagementSystemSignUp.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Model/SignUpModel.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Controller/DashboardController.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/Blood%20group.png</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/LoginView.java</file>
-            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/allDonorDetails.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/StockIncrease.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/dao/DbOperations.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/Images/homepagewow_4.png</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/Blood%20Bank%20Management%20System%20SignUp/src/view/Dashboard.java</file>
