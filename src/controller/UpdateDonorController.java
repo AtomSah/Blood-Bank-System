@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package controller;
-import database.BBConnection;
+import dao.ConnectionProvider;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
@@ -38,7 +38,7 @@ public class UpdateDonorController {
             try{        
                 int id=Integer.parseInt(updateView.getdonorID());
                 updateModel.collectDonor(id, updateView.getFullname(), updateView.getMothername(), updateView.getFathername(), updateView.getDOB(), updateView.getGender(), updateView.getAddress(), updateView.getPhonenum(), updateView.getBloodgroup(), updateView.getEmail(), updateView.getCity());
-                Connection conn=BBConnection.bloodBankConnect();
+                Connection conn=ConnectionProvider.getCon();
                 String sql = "UPDATE donor SET Fullname=?, Mothername=?, Fathername=?, dob=?, mobile_no=?, gender=?, address=?, blood_group=?, email=?, city=? WHERE donorID=?";
                 
         // Create a PreparedStatement object
@@ -76,7 +76,7 @@ public class UpdateDonorController {
             ResultSet rs=null;
             System.out.println("Hello this is View listner");
             try{
-                Connection conn=BBConnection.bloodBankConnect();
+                Connection conn=ConnectionProvider.getCon();
                 String sql=" SELECT Fullname,Mothername,Fathername,dob,mobile_no,gender,address,blood_group,email,city FROM donor WHERE donorID=?;";
                 PreparedStatement pst=conn.prepareStatement(sql);
                 System.out.println();
