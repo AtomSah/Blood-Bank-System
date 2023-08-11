@@ -6,7 +6,6 @@
  */
 package view;
 import Project.*;
-
 import javax.swing.JOptionPane;
 
 
@@ -32,51 +31,30 @@ public class Dashboard extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jMenuBar2 = new javax.swing.JMenuBar();
-        jMenu7 = new javax.swing.JMenu();
-        jMenu8 = new javax.swing.JMenu();
-        jMenuBar3 = new javax.swing.JMenuBar();
-        jMenu9 = new javax.swing.JMenu();
-        jMenu10 = new javax.swing.JMenu();
-        jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        menuDonor = new javax.swing.JMenu();
+        menuItemAddDonor = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        menuItemUpdateDonor = new javax.swing.JMenuItem();
         jSeparator2 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem3 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        menuLocation = new javax.swing.JMenuItem();
+        menuItemDonorDetails = new javax.swing.JMenuItem();
+        menuSearch = new javax.swing.JMenu();
+        menuItemLocation = new javax.swing.JMenuItem();
         jSeparator3 = new javax.swing.JPopupMenu.Separator();
-        menuBloodGrp = new javax.swing.JMenuItem();
-        jMenu3 = new javax.swing.JMenu();
-        jMenuItem6 = new javax.swing.JMenuItem();
+        menuItemBloodGrp = new javax.swing.JMenuItem();
+        menuStock = new javax.swing.JMenu();
+        menuItemIncrease = new javax.swing.JMenuItem();
         jSeparator4 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem7 = new javax.swing.JMenuItem();
+        menuItemDecrease = new javax.swing.JMenuItem();
         jSeparator5 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem8 = new javax.swing.JMenuItem();
-        jMenu4 = new javax.swing.JMenu();
-        jMenuItem9 = new javax.swing.JMenuItem();
-        jMenu11 = new javax.swing.JMenu();
-        jMenuItem10 = new javax.swing.JMenuItem();
+        menuItemStockDetails = new javax.swing.JMenuItem();
+        menuDelete = new javax.swing.JMenu();
+        menuItemDeleteDonor = new javax.swing.JMenuItem();
+        menuExit = new javax.swing.JMenu();
+        menuItemLogout = new javax.swing.JMenuItem();
         jSeparator6 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem11 = new javax.swing.JMenuItem();
-
-        jMenu7.setText("File");
-        jMenuBar2.add(jMenu7);
-
-        jMenu8.setText("Edit");
-        jMenuBar2.add(jMenu8);
-
-        jMenu9.setText("File");
-        jMenuBar3.add(jMenu9);
-
-        jMenu10.setText("Edit");
-        jMenuBar3.add(jMenu10);
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/homepagewow_1.png"))); // NOI18N
+        menuItemExit = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -85,172 +63,172 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/homepagewow_4.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -410, 1310, 1380));
 
-        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Donor.png"))); // NOI18N
-        jMenu1.setText("Donor");
-        jMenu1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        menuDonor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Donor.png"))); // NOI18N
+        menuDonor.setText("Donor");
+        menuDonor.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
-        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Add new.png"))); // NOI18N
-        jMenuItem1.setText("Add New Donor");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        menuItemAddDonor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        menuItemAddDonor.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemAddDonor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Add new.png"))); // NOI18N
+        menuItemAddDonor.setText("Add New Donor");
+        menuItemAddDonor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                menuItemAddDonorActionPerformed(evt);
             }
         });
-        jMenuItem1.addKeyListener(new java.awt.event.KeyAdapter() {
+        menuItemAddDonor.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
-                jMenuItem1KeyReleased(evt);
+                menuItemAddDonorKeyReleased(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
-        jMenu1.add(jSeparator1);
+        menuDonor.add(menuItemAddDonor);
+        menuDonor.add(jSeparator1);
 
-        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Update details.png"))); // NOI18N
-        jMenuItem2.setText("Update Details");
-        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+        menuItemUpdateDonor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        menuItemUpdateDonor.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemUpdateDonor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Update details.png"))); // NOI18N
+        menuItemUpdateDonor.setText("Update Details");
+        menuItemUpdateDonor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem2ActionPerformed(evt);
+                menuItemUpdateDonorActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem2);
-        jMenu1.add(jSeparator2);
+        menuDonor.add(menuItemUpdateDonor);
+        menuDonor.add(jSeparator2);
 
-        jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_W, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Details.png"))); // NOI18N
-        jMenuItem3.setText("All Donor Details");
-        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+        menuItemDonorDetails.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_W, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        menuItemDonorDetails.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemDonorDetails.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Details.png"))); // NOI18N
+        menuItemDonorDetails.setText("All Donor Details");
+        menuItemDonorDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem3ActionPerformed(evt);
+                menuItemDonorDetailsActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem3);
+        menuDonor.add(menuItemDonorDetails);
 
-        jMenuBar1.add(jMenu1);
+        jMenuBar1.add(menuDonor);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/search user.png"))); // NOI18N
-        jMenu2.setText("Search Blood Donor");
-        jMenu2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jMenu2.addActionListener(new java.awt.event.ActionListener() {
+        menuSearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/search user.png"))); // NOI18N
+        menuSearch.setText("Search Blood Donor");
+        menuSearch.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        menuSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenu2ActionPerformed(evt);
+                menuSearchActionPerformed(evt);
             }
         });
 
-        menuLocation.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.ALT_DOWN_MASK));
-        menuLocation.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuLocation.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Location.png"))); // NOI18N
-        menuLocation.setText("Location");
-        menuLocation.addActionListener(new java.awt.event.ActionListener() {
+        menuItemLocation.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.ALT_DOWN_MASK));
+        menuItemLocation.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemLocation.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Location.png"))); // NOI18N
+        menuItemLocation.setText("Location");
+        menuItemLocation.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuLocationActionPerformed(evt);
+                menuItemLocationActionPerformed(evt);
             }
         });
-        jMenu2.add(menuLocation);
-        jMenu2.add(jSeparator3);
+        menuSearch.add(menuItemLocation);
+        menuSearch.add(jSeparator3);
 
-        menuBloodGrp.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.ALT_DOWN_MASK));
-        menuBloodGrp.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        menuBloodGrp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Blood group.png"))); // NOI18N
-        menuBloodGrp.setText("Blood Group");
-        menuBloodGrp.addActionListener(new java.awt.event.ActionListener() {
+        menuItemBloodGrp.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.ALT_DOWN_MASK));
+        menuItemBloodGrp.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemBloodGrp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Blood group.png"))); // NOI18N
+        menuItemBloodGrp.setText("Blood Group");
+        menuItemBloodGrp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuBloodGrpActionPerformed(evt);
+                menuItemBloodGrpActionPerformed(evt);
             }
         });
-        jMenu2.add(menuBloodGrp);
+        menuSearch.add(menuItemBloodGrp);
 
-        jMenuBar1.add(jMenu2);
+        jMenuBar1.add(menuSearch);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/stock.png"))); // NOI18N
-        jMenu3.setText("Stock");
-        jMenu3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        menuStock.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/stock.png"))); // NOI18N
+        menuStock.setText("Stock");
+        menuStock.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
-        jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItem6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Inc.png"))); // NOI18N
-        jMenuItem6.setText("Increase");
-        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+        menuItemIncrease.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
+        menuItemIncrease.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemIncrease.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Inc.png"))); // NOI18N
+        menuItemIncrease.setText("Increase");
+        menuItemIncrease.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem6ActionPerformed(evt);
+                menuItemIncreaseActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem6);
-        jMenu3.add(jSeparator4);
+        menuStock.add(menuItemIncrease);
+        menuStock.add(jSeparator4);
 
-        jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItem7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Dec.png"))); // NOI18N
-        jMenuItem7.setText("Decrease");
-        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+        menuItemDecrease.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
+        menuItemDecrease.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemDecrease.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Dec.png"))); // NOI18N
+        menuItemDecrease.setText("Decrease");
+        menuItemDecrease.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem7ActionPerformed(evt);
+                menuItemDecreaseActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem7);
-        jMenu3.add(jSeparator5);
+        menuStock.add(menuItemDecrease);
+        menuStock.add(jSeparator5);
 
-        jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItem8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Details.png"))); // NOI18N
-        jMenuItem8.setText("Stock Details");
-        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+        menuItemStockDetails.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
+        menuItemStockDetails.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemStockDetails.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Details.png"))); // NOI18N
+        menuItemStockDetails.setText("Stock Details");
+        menuItemStockDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem8ActionPerformed(evt);
+                menuItemStockDetailsActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem8);
+        menuStock.add(menuItemStockDetails);
 
-        jMenuBar1.add(jMenu3);
+        jMenuBar1.add(menuStock);
 
-        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/delete donor.png"))); // NOI18N
-        jMenu4.setText("Delete Donor");
-        jMenu4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        menuDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/delete donor.png"))); // NOI18N
+        menuDelete.setText("Delete Donor");
+        menuDelete.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
-        jMenuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/delete.png"))); // NOI18N
-        jMenuItem9.setText("Delete Donor");
-        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+        menuItemDeleteDonor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        menuItemDeleteDonor.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemDeleteDonor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/delete.png"))); // NOI18N
+        menuItemDeleteDonor.setText("Delete Donor");
+        menuItemDeleteDonor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem9ActionPerformed(evt);
+                menuItemDeleteDonorActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem9);
+        menuDelete.add(menuItemDeleteDonor);
 
-        jMenuBar1.add(jMenu4);
+        jMenuBar1.add(menuDelete);
 
-        jMenu11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/exit.png"))); // NOI18N
-        jMenu11.setText("Exit");
-        jMenu11.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        menuExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/exit.png"))); // NOI18N
+        menuExit.setText("Exit");
+        menuExit.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
-        jMenuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Logout.png"))); // NOI18N
-        jMenuItem10.setText("Logout");
-        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+        menuItemLogout.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        menuItemLogout.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemLogout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Logout.png"))); // NOI18N
+        menuItemLogout.setText("Logout");
+        menuItemLogout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem10ActionPerformed(evt);
+                menuItemLogoutActionPerformed(evt);
             }
         });
-        jMenu11.add(jMenuItem10);
-        jMenu11.add(jSeparator6);
+        menuExit.add(menuItemLogout);
+        menuExit.add(jSeparator6);
 
-        jMenuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_E, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jMenuItem11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Exit application.png"))); // NOI18N
-        jMenuItem11.setText("Exit Application");
-        jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
+        menuItemExit.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_E, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        menuItemExit.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        menuItemExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Exit application.png"))); // NOI18N
+        menuItemExit.setText("Exit Application");
+        menuItemExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem11ActionPerformed(evt);
+                menuItemExitActionPerformed(evt);
             }
         });
-        jMenu11.add(jMenuItem11);
+        menuExit.add(menuItemExit);
 
-        jMenuBar1.add(jMenu11);
+        jMenuBar1.add(menuExit);
 
         setJMenuBar(jMenuBar1);
 
@@ -258,39 +236,35 @@ public class Dashboard extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void menuItemAddDonorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemAddDonorActionPerformed
         // TODO add your handling code here:
         new addNewDonors().setVisible(true);
         
         
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_menuItemAddDonorActionPerformed
 
-    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+    private void menuItemDonorDetailsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemDonorDetailsActionPerformed
         // TODO add your handling code here:
-        new allDonorDetails().setVisible(true);
-     
-    
+        DonorDetails.displayDonorDetails();
 
         
         
         
-        
-       
-        
-    }//GEN-LAST:event_jMenuItem3ActionPerformed
+  
+    }//GEN-LAST:event_menuItemDonorDetailsActionPerformed
 
-    private void menuLocationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuLocationActionPerformed
+    private void menuItemLocationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemLocationActionPerformed
         SearchDonorLocation.searchLocation();
         
-    }//GEN-LAST:event_menuLocationActionPerformed
+    }//GEN-LAST:event_menuItemLocationActionPerformed
 
-    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+    private void menuItemIncreaseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemIncreaseActionPerformed
         // TODO add your handling code here:
-        new StockIncrease().setVisible(true);
+        StockIncrease.increaseStock();
         
-    }//GEN-LAST:event_jMenuItem6ActionPerformed
+    }//GEN-LAST:event_menuItemIncreaseActionPerformed
 
-    private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
+    private void menuItemExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemExitActionPerformed
         // TODO add your handling code here:
         int choice = JOptionPane.showConfirmDialog(null, "Do you really want to close the application?", "Select", JOptionPane.YES_NO_OPTION);
 
@@ -303,54 +277,53 @@ public class Dashboard extends javax.swing.JFrame {
 
 
         
-    }//GEN-LAST:event_jMenuItem11ActionPerformed
+    }//GEN-LAST:event_menuItemExitActionPerformed
 
-    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
+    private void menuItemLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemLogoutActionPerformed
         // TODO add your handling code here:
         setVisible(false);
         new LoginView().setVisible(true);
-    }//GEN-LAST:event_jMenuItem10ActionPerformed
+    }//GEN-LAST:event_menuItemLogoutActionPerformed
 
-    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+    private void menuItemUpdateDonorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemUpdateDonorActionPerformed
         // TODO add your handling code here:
         setVisible(false);
         new updateDetailsDonor().setVisible(true);
-        
-        
-    }//GEN-LAST:event_jMenuItem2ActionPerformed
+    }//GEN-LAST:event_menuItemUpdateDonorActionPerformed
 
-    private void jMenu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu2ActionPerformed
-        // TODO add your handling code here:
-        new SearchBloodDonorsLocation().setVisible(true);
-    }//GEN-LAST:event_jMenu2ActionPerformed
-
-    private void jMenuItem1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jMenuItem1KeyReleased
+    private void menuItemAddDonorKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_menuItemAddDonorKeyReleased
         // TODO add your handling code here:
         new addNewDonors().setVisible(true);
-    }//GEN-LAST:event_jMenuItem1KeyReleased
+    }//GEN-LAST:event_menuItemAddDonorKeyReleased
 
-    private void menuBloodGrpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuBloodGrpActionPerformed
+    private void menuItemBloodGrpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemBloodGrpActionPerformed
         // TODO add your handling code here:
         SearchDonorBloodGroup.searchBloodGroup();
-    }//GEN-LAST:event_menuBloodGrpActionPerformed
+    }//GEN-LAST:event_menuItemBloodGrpActionPerformed
 
-    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+    private void menuItemDecreaseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemDecreaseActionPerformed
         // TODO add your handling code here:
-        new StockDecrease().setVisible(true);
-    }//GEN-LAST:event_jMenuItem7ActionPerformed
+        StockDecrease.DecreaseStock();
+    }//GEN-LAST:event_menuItemDecreaseActionPerformed
 
-    private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
+    private void menuItemStockDetailsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemStockDetailsActionPerformed
         // TODO add your handling code here:
         setVisible(false);
-        new stockDetails().setVisible(true);
-    }//GEN-LAST:event_jMenuItem8ActionPerformed
+        StockDetails.displayStockDetails();
+    }//GEN-LAST:event_menuItemStockDetailsActionPerformed
 
-    private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
+    private void menuItemDeleteDonorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemDeleteDonorActionPerformed
         // TODO add your handling code here:
         setVisible(false);
 //        new deleteDonor().setVisible(true);
         DeleteDonor.deleteDonor();
-    }//GEN-LAST:event_jMenuItem9ActionPerformed
+    }//GEN-LAST:event_menuItemDeleteDonorActionPerformed
+
+    private void menuSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuSearchActionPerformed
+        // TODO add your handling code here:
+                SearchDonorLocation.searchLocation();
+
+    }//GEN-LAST:event_menuSearchActionPerformed
 
     /**
      * @param args the command line arguments
@@ -389,35 +362,28 @@ public class Dashboard extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu10;
-    private javax.swing.JMenu jMenu11;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
-    private javax.swing.JMenu jMenu7;
-    private javax.swing.JMenu jMenu8;
-    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuBar jMenuBar2;
-    private javax.swing.JMenuBar jMenuBar3;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem10;
-    private javax.swing.JMenuItem jMenuItem11;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem6;
-    private javax.swing.JMenuItem jMenuItem7;
-    private javax.swing.JMenuItem jMenuItem8;
-    private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JPopupMenu.Separator jSeparator2;
     private javax.swing.JPopupMenu.Separator jSeparator3;
     private javax.swing.JPopupMenu.Separator jSeparator4;
     private javax.swing.JPopupMenu.Separator jSeparator5;
     private javax.swing.JPopupMenu.Separator jSeparator6;
-    private javax.swing.JMenuItem menuBloodGrp;
-    private javax.swing.JMenuItem menuLocation;
+    private javax.swing.JMenu menuDelete;
+    private javax.swing.JMenu menuDonor;
+    private javax.swing.JMenu menuExit;
+    private javax.swing.JMenuItem menuItemAddDonor;
+    private javax.swing.JMenuItem menuItemBloodGrp;
+    private javax.swing.JMenuItem menuItemDecrease;
+    private javax.swing.JMenuItem menuItemDeleteDonor;
+    private javax.swing.JMenuItem menuItemDonorDetails;
+    private javax.swing.JMenuItem menuItemExit;
+    private javax.swing.JMenuItem menuItemIncrease;
+    private javax.swing.JMenuItem menuItemLocation;
+    private javax.swing.JMenuItem menuItemLogout;
+    private javax.swing.JMenuItem menuItemStockDetails;
+    private javax.swing.JMenuItem menuItemUpdateDonor;
+    private javax.swing.JMenu menuSearch;
+    private javax.swing.JMenu menuStock;
     // End of variables declaration//GEN-END:variables
 }
