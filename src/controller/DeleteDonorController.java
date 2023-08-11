@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import view.DeleteDonorView;
 import model.UpdateDonorModel;
 import java.sql.ResultSet;
-import database.DonorDAO;
+import dao.DonorDAO;
 /**
  *
  * @author Dell
